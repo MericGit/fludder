@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/flooder/main/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flooder/main/build" />
       <excludeFolder url="file://$MODULE_DIR$/flooder/main/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/main/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/main/build" />
+      <excludeFolder url="file://$MODULE_DIR$/main/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
