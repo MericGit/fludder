@@ -36,3 +36,9 @@ Tile map/terrain implementation with differing heights of neighbouring tiles  - 
 <https://cdn.discordapp.com/attachments/931605169232293988/931608705882001428/unknown.png>
 
 (Height is irrelevant and can be done for pure visuals if we get 3D to work. If we can't get 3D to work we can do like fake height with cliff face drawings, since the camera is always in one location and so we don't need "true" 3D)
+
+------------
+
+Custom Blocks: Movable -> unmovable
+sliding ice blocks (time based freeze system)
+chain sand blocks (move one to move others)
