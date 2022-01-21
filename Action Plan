@@ -1,0 +1,44 @@
+ideas:
+Slider game using "negative space"
+
+The playing field will be a shape with a lot of sliding terrain of various sizes, and a LOT of empty space.
+
+The edges around the map will have water sources. Either one point of entry or multiple
+
+The goal is to move the sliders in a way to make the water contact and spread to the tiles to "water" all the tiles and create a piece of nice looking scenery
+We could have a cool animation where like beating the puzzle makes the land bloom or something, or when pieces get in contact with water they turn different colors
+---------------------------
+Another idea could be like a vertical sliding game where you don't slide pieces around horizontally, but upward. To be honest idk how much variation this would add gameplay wise but it could be interesting. 
+
+
+Imagine the puzzle as a cube.
+
+You would only have access to the bottom of the cube, and the side that is facing you. So you can only see 1 layer at a time from either angle. Sliding pieces vertically might reveal holes which would then let you slide horizontally.... and vice versa. It's like a fake 3d since we would only ever have 2 seperate views instead of a whole cube so it might be easier to code? Real issue is designing the actual level for this game and making sure it's fun and makes sense. Idk about this idea, just popped in my head but might be something to consider?
+--------------------------
+Personally I like the negative space with water thing since it would be artistically cool I think to have like a "Dead" looking level slowly begin to transform to a nice landscape
+The worry might be that it's too simple, so we would maybe need to think of a few more mechanics to adjust to make it more like "advanced"
+Or we can keep it sweet and simple, depending on time and hope we get minimalism points
+
+<https://cdn.discordapp.com/attachments/931605169232293988/931607733805940766/unknown.png>
+
+Here' a possible quick art mockup of what the terrain water based game would look like
+blue = water
+red = movable terrain
+yellow = the pieces of that terain which are in contact with water and contribute to winning
+green = another piece (Done so you can see how the pieces are seperate since there are 3 pieces here the green is and if it was red it would look like one piece)
+black = unmovable terrain, however it does not need to be touched by water to count to the victory score
+Something like this, obviously more mechanics could be added. Even stuff like a tile that can NEVER touch water once would be interesting,  (Desert tile??) you would have to shuffle it into a corner and avoid it poking water on the way there.
+I think we can make the puzzle more unique with more tile types but this is just the basic idea. Move terrain, make rivers and waterways, make everything nice and irrigated
+My image isn't the most clear indicator. I'll try and get a better art mockup but I think the basic idea makes sense.
+Imagine something like this graphically but the land is chunked off into sections and there are already holes in the map so you have room to move stuff
+Tile map/terrain implementation with differing heights of neighbouring tiles  - Game Development Stack Exchange
+
+<https://cdn.discordapp.com/attachments/931605169232293988/931608705882001428/unknown.png>
+
+(Height is irrelevant and can be done for pure visuals if we get 3D to work. If we can't get 3D to work we can do like fake height with cliff face drawings, since the camera is always in one location and so we don't need "true" 3D)
+
+------------
+
+Custom Blocks: Movable -> unmovable
+sliding ice blocks (time based freeze system)
+chain sand blocks (move one to move others)
