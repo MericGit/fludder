@@ -1,0 +1,8 @@
+array in array
+
+ var arr = new List(5);
+ 
+for(var i = 0 ; i < arr.length; i++) { 
+  arr[i] = new List(5);
+} 
+
