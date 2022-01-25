@@ -6,3 +6,16 @@ for(var i = 0 ; i < arr.length; i++) {
   arr[i] = new List(5);
 } 
 
+new Enum TYPES = [WATER, GRASS];
+
+class Tile{
+
+ constructor() {
+  var type = WATER || GRASS;
+  var x_i = (0 - 5);
+  var y_i = (0 - 5);
+  var level = (1.0 - 0.0);
+  
+ }
+
+}
